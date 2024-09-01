@@ -1,0 +1,44 @@
+from textblob import TextBlob
+from textblob.en.sentiments import PatternAnalyzer
+
+def analise_sentimento(texto):
+    # Criando um objeto TextBlob com o analisador de padrões (PatternAnalyzer)
+    blob = TextBlob(texto, analyzer=PatternAnalyzer())
+
+    # Obtendo a polaridade do sentimento
+    polaridade = blob.sentiment.polarity
+
+    # Definindo o sentimento com base na polaridade
+    if polaridade > 0:
+        sentimento = "positivo"
+    elif polaridade < 0:
+        sentimento = "negativo"
+    else:
+        sentimento = "neutro"
+
+    return sentimento, polaridade
+
+# Exemplo de conjunto de textos
+textos = [
+    "Collaborative production refers to multiple independent firms working together with joint goals to deliver products and/or services to customers",
+
+"A blockchain-based voting system refers to a digital platform that incorporates blockchain technology to enable stakeholders to participate in decision-making processes through voting.",
+
+"Trust refers to the willingness to be vulnerable to partners's actions, expecting they will perform an important action, regardless of the ability to monitor or control them.",
+
+"A blockchain-based reputation system refers to a digital platform designed to indicate firms' expected behavior through records of their past behavior stored in the blockchain.",
+
+"A blockchain-based incentive system refers to automatic mechanisms aiming to incentivize firms to behave according to agreements (recorded in the blockchain) established among partners.",
+
+"Data access management using blockchain refers to an automatic identity verification mechanism to determine whether a user has the necessary access and authorization to knowledge repositories stored on the blockchain",
+
+"Blockchain cryptography refers to a mechanism in which one user (the sender) can encrypt data utilizing a public cryptographic key and send it to another user (the receiver), which can only decrypt it with its own secret cryptographic key."
+]
+
+# Aplicando a análise de sentimento para cada texto
+for texto in textos:
+    sentimento, polaridade = analise_sentimento(texto)
+    print(f"Texto: {texto}")
+    print(f"Sentimento: {sentimento}")
+    print(f"Polaridade: {polaridade}")
+    print("-" * 50)
