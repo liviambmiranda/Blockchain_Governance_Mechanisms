@@ -115,7 +115,6 @@ print("\n{:<10} {:<10} {:<10} {:<10} {:<10} {:<25} {:<20} {:<15} {:<20}".format(
     "Question", "Mean", "Median", "Std Dev", "T+", "Exact p-value (one-tailed)", "Significant at α=0.05", "Cliff's Delta", "95% CI"))
 print("-" * 140)
 for question, mean, median, std_dev, t_plus, p_value, effect_size, ci_lower, ci_upper in results:
-    if question not in [5, 11, 14]:  # Exclude questions 5, 11, and 14
         significant = "Yes" if p_value < 0.05 else "No"
         print("{:<10} {:<10.2f} {:<10.2f} {:<10.2f} {:<10} {:<25.8f} {:<20} {:<15.4f} ({:.4f}, {:.4f})".format(
             question, mean, median, std_dev, t_plus, p_value, significant, effect_size, ci_lower, ci_upper))
