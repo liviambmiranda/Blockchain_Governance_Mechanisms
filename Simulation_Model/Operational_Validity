@@ -29,7 +29,11 @@ class Membro:
        return f"Membro {self.id} - Tokens: {self.tokens}"
 
 class Rede:
-    def __init__(self, quantidade_membros=50):
+# def __init__(self, quantidade_membros=10):
+# def __init__(self, quantidade_membros=50):
+# def __init__(self, quantidade_membros=100):
+# def __init__(self, quantidade_membros=150):
+    def __init__(self, quantidade_membros=200):
         self.membros = [Membro(id=i) for i in range(quantidade_membros)]
         self.amplitudes = []
         self.tokens_finais = []
