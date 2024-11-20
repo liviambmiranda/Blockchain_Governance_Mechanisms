@@ -3,7 +3,7 @@
 This project refers to an analytical model based on statistics to evaluate construct reliability and perform hypothesis testing.
 
 - Please check the code used to calculate Cronbach's alpha and inter-item correlations (Kendall tau) and to assess the sample's normality in [Reliability](Empirical_Analysis/Construct_Reliability).
-- Please check the code used to test the research hypotheses using a one-tailed Wilcoxon signed-rank in [Hypotheses](Empirical_Analysis/Hypotheses_Testing).
+- Please check the code used to test the research hypotheses using Wilcoxon signed-rank in [Hypotheses](Empirical_Analysis/Hypotheses_Testing).
 - Please check the code used to evaluate the common method bias of the definitions added in the questionnaire used to survey academics and practitioners in [Sentiment Analysis](Empirical_Analysis/Sentiment_Analysis). 
 
 
