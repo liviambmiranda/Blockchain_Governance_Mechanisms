@@ -16,7 +16,7 @@ Below is an overview of the purpose and usage of each code snippet.
 
 ----------
 
-## Requirements
+## Requirements <img src="[path_or_url_to_image](https://images.app.goo.gl/qGSmSxVcizvSUCGGA)" width="25" height="25" />
 
 -   **Python 3.7+**
 -   **NumPy** (for array manipulation)
