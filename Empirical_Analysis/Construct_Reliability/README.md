@@ -11,8 +11,6 @@ Below is an overview of the purpose and usage of each code snippet.
 1.  [Requirements](#requirements)
 2.  [Data Structure](#data-structure)
 3. [How to Run](#how-to-run)
-4. [Interpretation of Results](#interpretation-of-results)
-5. [Acknowledgments](#acknowledgments)
 
 ----------
 
