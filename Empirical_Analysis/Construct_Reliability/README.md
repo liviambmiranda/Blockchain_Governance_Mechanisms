@@ -34,7 +34,9 @@ Install the packages via:
     
 2.  **`constructs`**: A list of lists, where each sub-list contains the indices of items belonging to a particular construct. For example:
 
-        constructs = [
+ 
+
+       constructs = [
         [0, 1],        # Construct 1 (items Q1, Q2)
         [2, 3, 4],     # Construct 2 (items Q3, Q4, Q5)
         [5, 6]       # Construct 3, etc.
