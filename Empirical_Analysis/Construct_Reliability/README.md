@@ -6,7 +6,7 @@ This repository contains three Python code snippets designed to evaluate reliabi
  3. **Shapiro–Wilk normality tests** for each item (column) in a dataset.
 
 Below is an overview of the purpose and usage of each code snippet.
-## Table of Contents
+## Table of Contents  :memo:
 
 1.  [Requirements](#requirements)
 2.  [Data Structure](#data-structure)
@@ -16,7 +16,7 @@ Below is an overview of the purpose and usage of each code snippet.
 
 ----------
 
-## Requirements <img src="[path_or_url_to_image](https://images.app.goo.gl/qGSmSxVcizvSUCGGA)" width="25" height="25" />
+## Requirements :wrench:
 
 -   **Python 3.7+**
 -   **NumPy** (for array manipulation)
@@ -30,7 +30,7 @@ Install the packages via:
 
 ----------
 
-## Data Structure
+## Data Structure :bulb:
 
 1.  **`data`**: A NumPy array of shape (n_samples, n_items). Each row corresponds to a participant’s responses, and each column corresponds to a survey question (item).
     
@@ -45,7 +45,7 @@ Install the packages via:
     
 ----------
 
-## How to Run
+## How to Run :checkered_flag:
 
 1.  **Clone or download** this repository.
 2.  **Open a Python session or Jupyter Notebook** in the directory containing the scripts.
