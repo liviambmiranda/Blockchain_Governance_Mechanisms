@@ -48,7 +48,7 @@ This project provides an **analytical model based on simulation** to study the *
 - **Token Distribution**:
   - Analyzes the cumulative token distribution after each voting iteration that meets the minimum quorum.
 
-### Code and Models:
+### Code:
 
 - The full simulation model and analysis scripts can be found in [Simulation_Model](Simulation_Model).
 
