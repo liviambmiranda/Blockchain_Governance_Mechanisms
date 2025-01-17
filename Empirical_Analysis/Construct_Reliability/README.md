@@ -2,7 +2,7 @@
 This repository contains three Python code snippets designed to evaluate reliability of survey items and to perform normality tests on data. Specifically, the scripts compute:
 
  1. **Cronbach’s Alpha** ,
- 2. **Average inter-item correlations** via **Kendall’s Tau** correlation coefficient, and
+ 2. **Kendall’s Tau** correlation coefficient, and
  3. **Shapiro–Wilk normality tests** for each item (column) in a dataset.
 
 Below is an overview of the purpose and usage of each code snippet.
