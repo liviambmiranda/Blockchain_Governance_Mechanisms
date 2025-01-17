@@ -9,7 +9,7 @@ This repository contains a Python code to analyze **operational validity**, i.e.
 2. [Key Features](#key-features)  
 3. [Simulation Details](#simulation-details)  
 4. [How to Run](#how-to-run)  
-5. . [Notes](#notes)  
+5. [Notes](#notes)  
 
 ---
 
