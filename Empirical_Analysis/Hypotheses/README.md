@@ -4,7 +4,7 @@ This repository contains Python code designed to evaluate statistical properties
 
 1. **Cliff’s Delta** (a effect size measure),  
 2. **Confidence intervals for Cliff’s Delta**, and  
-3. **One-tailed Wilcoxon signed-rank tests** (to compare medians against a hypothesized value).
+3. **Exact procedure of Wilcoxon signed-rank test** (to compare medians against a hypothesized value).
 
 
 ## Table of Contents :memo:
