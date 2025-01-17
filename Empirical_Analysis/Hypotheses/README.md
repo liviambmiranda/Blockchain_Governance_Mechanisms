@@ -23,8 +23,7 @@ This repository contains Python code designed to evaluate statistical properties
 
 Install the required packages via:
 
-```bash
-pip install numpy scipy
+    pip install numpy scipy
 
 ---
 
