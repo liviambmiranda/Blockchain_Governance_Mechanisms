@@ -1,5 +1,5 @@
 # Overview
-This repository contains three Python code snippets designed to evaluate reliability of survey items and to perform normality tests on data. Specifically, the scripts compute:
+This repository contains three Python codes designed to evaluate the reliability of survey items (from a questionnaire using a seven-point Likert-type scale with end points of ‘strongly disagree’ and ‘strongly agree’) and to perform normality tests on data. Specifically, the scripts compute:
 
  1. **Cronbach’s Alpha** ,
  2. **Kendall’s Tau** correlation coefficient, and
