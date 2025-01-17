@@ -9,7 +9,7 @@ This repository explores the **validation, testing, and simulation analysis of b
 
 ## (1) Empirical Validation and Testing of Blockchain Governance Mechanisms
 
-This project focuses on an **analytical model based on statistical methods** to evaluate the reliability of constructs, perform hypothesis testing, and analyze common method bias in a survey instrument.
+This project focuses on an **analytical model based on statistical methods** to evaluate the reliability of constructs, perform hypothesis testing, and analyze common method bias in a survey instrument used to validate and test the blockchain governance mechanisms based on responses from academics and practitioners.
 
 ### Key Features:
 
