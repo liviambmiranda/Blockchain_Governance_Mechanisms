@@ -31,6 +31,7 @@ Install the required package via:
         -   **Neutral** (polarity = 0)
         -   **Negative** (polarity < 0)
 
+    - Polarity values range from -1 to 1.
 ----------
 
 ## How to Run :checkered_flag:
